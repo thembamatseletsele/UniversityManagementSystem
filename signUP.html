@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Portal - Sign Up</title>
+    <link rel="stylesheet" href="SignUP.css">
+</head>
+<body>
+
+    <nav class="top-nav">
+        <ul class="nav-left">
+            <li><a href="#">Registrations</a></li>
+            <li><a href="#">Bursaries</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Sports</a></li>
+        </ul>
+        <div class="nav-logo">
+            <img src="logo.jpg" alt="University Logo">
+        </div>
+    </nav>
+
+    <div class="signup-container">
+        <div class="signup-logo">
+            <img src="logo.jpg" alt="University Logo">
+        </div>
+
+        <h2>Create Account</h2>
+
+        <form id="signupForm">
+
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="studentID" required>
+                <label for="studentID">Student ID</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="confirmPassword" required>
+                <label for="confirmPassword">Confirm Password</label>
+            </div>
+
+            <button type="submit" class="btn-primary">Create Account</button>
+
+            <p class="login-link">
+                Already have an account? 
+                <a href="home.html">Sign In</a>
+            </p>
+
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shuttle Service Schedule</title>
+<link rel="stylesheet" href="Shuttle.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="top-nav">
+<ul class="nav-left">
+<li><a href="#">Registrations</a></li>
+<li><a href="#">Bursaries</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Research</a></li>
+<li><a href="#">Faculties</a></li>
+<li><a href="#">SOS</a></li>
+<li><a href="#">Shuttles</a></li>
+<li><a href="#">Residences</a></li>
+<li><a href="#">Sports</a></li>
+</ul>
+
+<div class="nav-logo">
+<img src="logo.jpg">
+</div>
+</nav>
+
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar">
+
+<div class="sidebar-header">
+<h2>Acadex</h2>
+</div>
+
+<ul class="sidebar-menu">
+<li><a href="Profile.html">Profile</a></li>
+<li><a href="Courses.html">Courses</a></li>
+<li><a href="Calendar.html">Calendar</a></li>
+<li><a href="Messages.html">Messages</a></li>
+<li><a href="Marks.html">Marks</a></li>
+<li><a href="Timetable.html">Timetable</a></li>
+<li><a href="Announcement.html">Announcement</a></li>
+</ul>
+
+</aside>
+
+<div class="main-content">
+
+<h1>Campus Shuttle Schedule</h1>
+
+<div class="form-section">
+<input type="text" id="departure" placeholder="Enter Departure (e.g Bellville Campus)">
+<input type="text" id="destination" placeholder="Enter Destination (e.g DGH)">
+<button onclick="showSchedule()">Show Schedule</button>
+</div>
+
+
+<div id="schedule"></div>
+
+</div>
+
+<script src="Shuttle.js"></script>
+
+</body>
+</html>

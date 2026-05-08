@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrical Engineering Registration</title>
+<link rel="stylesheet" href="SOS_HOME.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="top-nav">
+<ul class="nav-left">
+<li><a href="#">Registrations</a></li>
+<li><a href="#">Bursaries</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Research</a></li>
+<li><a href="#">Faculties</a></li>
+<li><a href="#">SOS</a></li>
+<li><a href="#">Shuttles</a></li>
+<li><a href="#">Residences</a></li>
+<li><a href="#">Sports</a></li>
+</ul>
+
+<div class="nav-logo">
+<img src="logo.jpg">
+</div>
+</nav>
+
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar">
+
+<div class="sidebar-header">
+<h2>Acadex</h2>
+</div>
+
+<ul class="sidebar-menu">
+<li><a href="Profile.html">Profile</a></li>
+<li><a href="Courses.html">Courses</a></li>
+<li><a href="Calendar.html">Calendar</a></li>
+<li><a href="Messages.html">Messages</a></li>
+<li><a href="Marks.html">Marks</a></li>
+<li><a href="Timetable.html">Timetable</a></li>
+<li><a href="Announcement.html">Announcement</a></li>
+</ul>
+
+</aside>
+
+<!-- ================= MAIN CONTENT ================= -->
+<div class="main-content">
+
+<h1>Electrical Engineering Registration Form</h1>
+
+<form id="registrationForm">
+
+<!-- BASIC INFORMATION -->
+<h2>Basic Information</h2>
+
+<label>Full Name</label>
+<input type="text" id="fullName" required>
+
+<label>Email Address</label>
+<input type="email" id="email" required>
+
+<label>Student ID</label>
+<input type="text" id="studentId" required>
+
+<label>Campus</label>
+<select id="campus" required>
+<option value="">Select Campus</option>
+<option>D6</option>
+<option>Bellville</option>
+<option>Wellington</option>
+<option>Mowbray</option>
+</select>
+
+<label>Course</label>
+<input type="text" id="course" value="Electrical Engineering" readonly>
+
+
+<!-- ADDITIONAL INFORMATION -->
+<h2>Additional Information</h2>
+
+<label>Gender</label>
+<select id="gender" required>
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<label>Date of Birth</label>
+<input type="date" id="dob" required>
+
+<label>Education Level</label>
+<input type="text" id="education" required>
+
+
+<!-- JOB INFORMATION -->
+<h2>Job Information</h2>
+
+<label>Company</label>
+<input type="text" id="company">
+
+<label>Job Title</label>
+<input type="text" id="jobTitle">
+
+<label>Department</label>
+<input type="text" id="department" required>
+
+
+<!-- FIRST SEMESTER MODULES -->
+<h2>First Semester Modules (Select at least 4)</h2>
+
+<div class="modules">
+<label><input type="checkbox" name="sem1"> Circuit Analysis</label>
+<label><input type="checkbox" name="sem1"> Engineering Mathematics</label>
+<label><input type="checkbox" name="sem1"> Digital Logic Design</label>
+<label><input type="checkbox" name="sem1"> Electromagnetics</label>
+<label><input type="checkbox" name="sem1"> Programming for Engineers</label>
+<label><input type="checkbox" name="sem1"> Electronic Devices</label>
+</div>
+
+
+<!-- SECOND SEMESTER MODULES -->
+<h2>Second Semester Modules (Select at least 4)</h2>
+
+<div class="modules">
+<label><input type="checkbox" name="sem2"> Control Systems</label>
+<label><input type="checkbox" name="sem2"> Power Systems</label>
+<label><input type="checkbox" name="sem2"> Signals and Systems</label>
+<label><input type="checkbox" name="sem2"> Microprocessors</label>
+<label><input type="checkbox" name="sem2"> Communication Systems</label>
+<label><input type="checkbox" name="sem2"> Renewable Energy Systems</label>
+</div>
+
+<button type="submit">Submit Registration</button>
+
+</form>
+</div>
+
+<script src="SOS_HOME.js"></script>
+
+</body>
+</html>
